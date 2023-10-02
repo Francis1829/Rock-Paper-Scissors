@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Log_In_Area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .selections button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 50px;
+    font-size: 5rem;
+    transition: 100ms;
+  }
+  
+  
+  .results {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .winners{
+    display: none;
+  }
+
+  .game{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uselect{
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+
+  }
+  .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-inline: 60px;
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 132, 255, 0.348);
+    border-radius: 10px;
+    width: 400px;
+    height: 290px;
+}
+
+#UserName {
+    padding: 12px;
+    margin: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#Login {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Login:hover {
+    background-color: #0056b3;
+}
+
+.Play_Area{
+    overflow: hidden;
+    background-color: #eaeaea;
+    margin-inline: 16vw ;
+    border-radius: 20px;
+    padding: 40px;
+}

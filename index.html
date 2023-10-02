@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TheRock</title>
+</head>
+<body>
+<div class="Log_In_Area">
+    <div class="form">
+        <input type="text" id="UserName">
+        <button id="Login" onclick="LogIn()">Log in</button>
+    </div>
+</div>
+<div class="Play_Area" style="display: none;">
+    <div class="results">
+        <div class="details">
+            <div class="user"><h2 id="userData"></h2><span class="result-score" id="userScore">0</span></div>
+            <div class="user"><h2>Draw :</h2><span class="result-score" id="tiedScore">0</span></div>
+            <div class="user"><h2>Bot :</h2><span class="result-score" id="botScore">0</span></div>
+        </div>
+        <div class="uselect" id="winnnn"></div>
+        <div class="selections">
+            <button class="rock" onclick="move('✊🏽')">✊🏽</button>
+            <button class="paper" onclick="move('🖐🏽')">🖐🏽</button>
+            <button class="scissors" onclick="move('✌🏽')">✌🏽</button>
+        </div>
+    </div>
+
+    <div class="game" id="game">
+        <div class="uselect" id="uselect"></div>
+        <div class="uselect" id="bselect"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
